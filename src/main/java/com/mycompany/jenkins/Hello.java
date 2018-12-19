@@ -16,7 +16,7 @@ public class Hello {
      * @param args the command line arguments
      */
 
-    public Hello(String name) {
+    private Hello(String name) {
         this.name = name;
     }
     
@@ -34,7 +34,7 @@ public class Hello {
     }
     
     public static void main(String[] args) {
-        Hello antonio = new Hello("Antonio");
+        Hello antonio = new Hello("Antonioooo");
         System.out.println(antonio);
     }
     
