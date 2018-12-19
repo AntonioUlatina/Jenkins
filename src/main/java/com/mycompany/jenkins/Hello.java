@@ -12,6 +12,7 @@ package com.mycompany.jenkins;
 public class Hello {
 
     private String name;
+    private String lastName;
     /**
      * @param args the command line arguments
      */
@@ -28,13 +29,21 @@ public class Hello {
         this.name = name;
     }
     
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+    
     @Override
     public String toString() {
         return "Hello, " + this.name;
     }
     
     public static void main(String[] args) {
-        Hello antonio = new Hello("Antonioooo");
+        Hello antonio = new Hello("Antonio");
         System.out.println(antonio);
     }
     
