@@ -13,7 +13,7 @@ public class Hello {
 
     //Added comment.
     private String name;
-    private String lastName;
+    private String lastName;;;;;;;;;
     /**
      * @param args the command line arguments
      */
