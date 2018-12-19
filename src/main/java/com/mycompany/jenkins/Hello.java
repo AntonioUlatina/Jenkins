@@ -11,6 +11,7 @@ package com.mycompany.jenkins;
  */
 public class Hello {
 
+    //Added comment.
     private String name;
     private String lastName;
     /**
